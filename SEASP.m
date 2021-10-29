@@ -1,6 +1,7 @@
 function Y = SEASP(A, k) 
 % A: The Hyperspectral Datasets
 % k: The number of selected bands
+% Y：The selected bands
     [W, H, L] = size(A);
    
     for i = 1 : L - 1
